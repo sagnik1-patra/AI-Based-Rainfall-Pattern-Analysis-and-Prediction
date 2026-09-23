@@ -1,0 +1,51 @@
+{
+    "project_name": "AI-Based Rainfall Pattern Analysis and Prediction",
+    "optimization_algorithm": "Artificial Immune System",
+    "ais_method": "Clonal Selection Algorithm",
+    "dataset": "rainfall_june_2019_to_may_2020.csv",
+    "rainfall_statistics": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "difference_mm": 7.9,
+        "deviation_percentage": 0.8079,
+        "pattern": "Above Normal"
+    },
+    "best_ais_parameters": {
+        "neurons_1": 80,
+        "neurons_2": 46,
+        "learning_rate": 0.000424719057514159,
+        "batch_size": 8,
+        "fitness": 2248.140397115031,
+        "validation_loss": 0.00044480207725428045
+    },
+    "model_performance": {
+        "mae": 4.101618,
+        "mse": 31.797658,
+        "rmse": 5.638941,
+        "r2": 0.99949,
+        "mape": 0.43534,
+        "regression_accuracy": 99.56466
+    },
+    "original_prediction": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "ais_predicted_rainfall_mm": 985.4674,
+        "absolute_error_mm": 0.332593,
+        "percentage_error": 0.033738
+    },
+    "generated_files": [
+        "ais_rainfall_prediction_model.h5",
+        "ais_rainfall_preprocessor.pkl",
+        "ais_rainfall_config.yaml",
+        "ais_rainfall_metadata.json",
+        "ais_accuracy_graph.png",
+        "ais_heatmap.png",
+        "ais_comparison_graph.png",
+        "ais_result.csv",
+        "ais_result_graph.png",
+        "ais_prediction.csv",
+        "ais_prediction_graph.png",
+        "ais_optimization_history.csv",
+        "ais_optimization_graph.png"
+    ]
+}

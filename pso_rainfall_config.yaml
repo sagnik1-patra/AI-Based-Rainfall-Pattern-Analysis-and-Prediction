@@ -1,0 +1,36 @@
+project:
+  name: AI-Based Rainfall Pattern Analysis and Prediction
+  optimization: Particle Swarm Optimization
+  model: Artificial Neural Network
+  version: '1.0'
+dataset:
+  filename: rainfall_june_2019_to_may_2020.csv
+  path: C:\Users\sagni\Downloads\AI-Based Rainfall Pattern Analysis and Prediction\rainfall_june_2019_to_may_2020.csv
+  rows: 2
+  columns: 3
+  description_column: Description
+  rainfall_column: Rainfall (in mm)
+rainfall_analysis:
+  normal_rainfall_mm: 977.9
+  actual_rainfall_mm: 985.8
+  difference_mm: 7.899999999999977
+  deviation_percentage: 0.8078535637590734
+  pattern: Above Normal
+pso:
+  swarm_size: 6
+  iterations: 5
+  inertia_weight: 0.7
+  cognitive_coefficient: 1.5
+  social_coefficient: 1.5
+  best_neurons_1: 22
+  best_neurons_2: 31
+  best_learning_rate: 0.002701717211162775
+  best_batch_size: 16
+  best_validation_loss: 0.0004372951516415924
+model_performance:
+  mae: 3.8629152618110516
+  mse: 27.125681317950498
+  rmse: 5.208232072205548
+  r2_score: 0.9995650144359659
+  mape: 0.3817869610001546
+  regression_accuracy: 99.61821303899984

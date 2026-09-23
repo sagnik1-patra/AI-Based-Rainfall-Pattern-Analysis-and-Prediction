@@ -1,0 +1,33 @@
+project:
+  name: AI-Based Rainfall Pattern Analysis and Prediction
+  version: '1.0'
+  task: Regression
+dataset:
+  filename: rainfall_june_2019_to_may_2020.csv
+  path: C:\Users\sagni\Downloads\AI-Based Rainfall Pattern Analysis and Prediction\rainfall_june_2019_to_may_2020.csv
+  rows: 2
+  columns: 3
+  description_column: Description
+  rainfall_column: Rainfall (in mm)
+rainfall_analysis:
+  normal_rainfall_mm: 977.9
+  actual_rainfall_mm: 985.8
+  difference_mm: 7.899999999999977
+  percentage_deviation: 0.8078535637590734
+  pattern: Above Normal
+model:
+  framework: TensorFlow Keras
+  model_type: Artificial Neural Network Regression
+  loss: MeanSquaredError
+  metric: MeanAbsoluteError
+  optimizer: Adam
+  epochs_completed: 152
+  training_samples: 400
+  testing_samples: 100
+performance:
+  mae: 4.310280470563268
+  mse: 37.51495982661204
+  rmse: 6.124945699890901
+  r2: 0.9993984126787961
+  mape: 0.4211878329934236
+  regression_accuracy: 99.57881216700657

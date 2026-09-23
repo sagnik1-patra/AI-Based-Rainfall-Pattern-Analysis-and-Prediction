@@ -1,0 +1,39 @@
+{
+    "project_name": "AI-Based Rainfall Pattern Analysis and Prediction",
+    "dataset": "rainfall_june_2019_to_may_2020.csv",
+    "rainfall_statistics": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "difference_mm": 7.9,
+        "deviation_percentage": 0.8079,
+        "rainfall_pattern": "Above Normal"
+    },
+    "model_performance": {
+        "mae": 4.31028,
+        "mse": 37.51496,
+        "rmse": 6.124946,
+        "r2": 0.999398,
+        "mape": 0.421188,
+        "regression_accuracy": 99.578812
+    },
+    "original_prediction": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "predicted_rainfall_mm": 984.1332,
+        "absolute_error_mm": 1.66676,
+        "percentage_error": 0.169077
+    },
+    "generated_files": [
+        "rainfall_prediction_model.h5",
+        "rainfall_preprocessor.pkl",
+        "rainfall_config.yaml",
+        "rainfall_metadata.json",
+        "accuracy_graph.png",
+        "heatmap.png",
+        "comparison_graph.png",
+        "result.csv",
+        "result_graph.png",
+        "prediction.csv",
+        "prediction_graph.png"
+    ]
+}

@@ -1,0 +1,33 @@
+project:
+  name: AI-Based Rainfall Pattern Analysis and Prediction
+  optimization: Artificial Immune System
+  ais_algorithm: Clonal Selection Algorithm
+  version: '1.0'
+dataset:
+  filename: rainfall_june_2019_to_may_2020.csv
+  path: C:\Users\sagni\Downloads\AI-Based Rainfall Pattern Analysis and Prediction\rainfall_june_2019_to_may_2020.csv
+  rows: 2
+  columns: 3
+rainfall_analysis:
+  normal_rainfall_mm: 977.9
+  actual_rainfall_mm: 985.8
+  difference_mm: 7.899999999999977
+  percentage_deviation: 0.8078535637590734
+  pattern: Above Normal
+ais:
+  population_size: 6
+  generations: 4
+  selection_size: 3
+  clones_per_antibody: 2
+  best_neurons_1: 80
+  best_neurons_2: 46
+  best_learning_rate: 0.000424719057514159
+  best_batch_size: 8
+  best_fitness: 2248.140397115031
+model_performance:
+  mae: 4.10161776240976
+  mse: 31.797657793153515
+  rmse: 5.638941194333695
+  r2_score: 0.9994900949418378
+  mape: 0.43534032853393523
+  regression_accuracy: 99.56465967146606

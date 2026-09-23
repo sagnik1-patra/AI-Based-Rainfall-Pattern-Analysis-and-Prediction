@@ -1,0 +1,57 @@
+{
+    "project_name": "AI-Based Rainfall Pattern Analysis and Prediction",
+    "optimization_algorithm": "Particle Swarm Optimization",
+    "model": "Artificial Neural Network Regression",
+    "dataset": "rainfall_june_2019_to_may_2020.csv",
+    "rainfall_statistics": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "difference_mm": 7.9,
+        "deviation_percentage": 0.8079,
+        "pattern": "Above Normal"
+    },
+    "pso_configuration": {
+        "swarm_size": 6,
+        "iterations": 5,
+        "inertia_weight": 0.7,
+        "cognitive_coefficient": 1.5,
+        "social_coefficient": 1.5
+    },
+    "best_pso_parameters": {
+        "neurons_1": 22,
+        "neurons_2": 31,
+        "learning_rate": 0.002701717211162775,
+        "batch_size": 16,
+        "validation_loss": 0.0004372951516415924
+    },
+    "model_performance": {
+        "mae": 3.862915,
+        "mse": 27.125681,
+        "rmse": 5.208232,
+        "r2": 0.999565,
+        "mape": 0.381787,
+        "regression_accuracy": 99.618213
+    },
+    "original_prediction": {
+        "normal_rainfall_mm": 977.9,
+        "actual_rainfall_mm": 985.8,
+        "pso_predicted_rainfall_mm": 983.6467,
+        "absolute_error_mm": 2.153333,
+        "percentage_error": 0.218435
+    },
+    "generated_files": [
+        "pso_rainfall_prediction_model.h5",
+        "pso_rainfall_preprocessor.pkl",
+        "pso_rainfall_config.yaml",
+        "pso_rainfall_metadata.json",
+        "pso_accuracy_graph.png",
+        "pso_heatmap.png",
+        "pso_comparison_graph.png",
+        "pso_result.csv",
+        "pso_result_graph.png",
+        "pso_prediction.csv",
+        "pso_prediction_graph.png",
+        "pso_optimization_history.csv",
+        "pso_optimization_graph.png"
+    ]
+}
